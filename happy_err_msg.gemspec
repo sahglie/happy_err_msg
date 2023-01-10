@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", "~> 6.1.3", ">= 6.1.3.2"
+  spec.add_dependency "rails", ">= 6.1.3.2", "< 7.1"
   spec.add_development_dependency "active_attr"
 end
