@@ -1,13 +1,13 @@
 require_relative "lib/happy_err_msg/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "happy_err_msg"
-  spec.version     = HappyErrMsg::VERSION
-  spec.authors     = ["sahglie"]
-  spec.email       = ["sahglie@hey.com"]
-  spec.summary     = "Lets you specify error messages without the attribute name"
+  spec.name = "happy_err_msg"
+  spec.version = HappyErrMsg::VERSION
+  spec.authors = ["sahglie"]
+  spec.email = ["sahglie@hey.com"]
+  spec.summary = "Lets you specify error messages without the attribute name"
   spec.description = "Lets you specify error messages without the attribute name"
-  spec.license     = "MIT"
+  spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", ">= 6.1.3.2", "<~ 8.1"
+  spec.add_dependency "rails", ">= 6.1.3.2", "<= 8.1"
   spec.add_development_dependency "active_attr"
 end
